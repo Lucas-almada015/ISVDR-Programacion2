@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,100&family=Raleway:ital,wght@0,600;1,500;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Raleway', sans-serif;
+
+}
+
+body{
+    background-image: url(./imagenes/fondo-azul-degradado-lujo-abstracto-azul-oscuro-liso-banner-estudio-vineta-negra.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;  
+}
+
+ul{
+    list-style-type: none;
+    background-color: blue;
+    padding: 10px;
+    width: 300px;
+}
+.item-menu{
+display:inline;
+padding: 10px;
+cursor: pointer;
+}
+
+
+p{
+    font-size: small;
+}
+
+.titulo{
+background-image: url(./imagenes/auto\ 2.jpg);
+background-size: cover;
+background-attachment: fixed;
+background-position: 50%;
+padding: 80px 20px;
+margin: 40px 0px;
+height: 500px;
+text-align:center ;
+font-weight: 600;
+font-size: 4em;
+text-transform: uppercase;
+text-shadow: 5px 5px black;
+color: white;
+box-shadow: 5px 5px 10px blue,
+-5px -5px 10px blue;
+}
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-color: black;
+    box-shadow: 5px 5px 10px black,
+    -5px -5px 10px gray;
+    cursor: pointer; 
+  }
+  .container:hover{
+    transform: scale(1.1);
+    transition: 300ms;
+  }
+  .container:not(:hover) {
+    transition: 300ms; 
+    transform: scale(1);
+  }
+
+  .car {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .car img {
+    max-width: 70%;
+
+  }
+
+  .car-info {
+    margin-left: -250px;
+  }
+
+  .car-info h2 {
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .car-info p {
+    margin: 10px 0;
+  }
+  .img-1{
+      width: 180%;
+      height: 380px;
+  }
+  .img-2{
+    width: 175%;
+    height: 365px;
+}
+  .info-car{
+    width: 580px;
+    height: 200px;
+  }
+  .img-3{
+    width: 160%;
+    height: 450px;
+}
+.img-4{
+  width: 170%;
+  height: 330px;
+}
+.img-5{
+  width: 170%;
+  height: 400px;
+}
+.img-6{
+  width: 150%;
+  height: 430px;
+}
+
+.extras{
+  display: flex;
+  background-color: black;
+  padding: 30px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  width: auto;
+}
+.conc{
+  margin-right: 20%;
+  color: white;
+}
+label {
+  width: 100px;
+  text-align: right;
+  margin-right: 10px;
+  color: #fff;
+  float: left;
+}
+
+input {
+  width: 200px;
+}
+.busqueda{
+  position: relative;
+  margin-left: 170%;
+  margin-top: 3%;
+}
+
